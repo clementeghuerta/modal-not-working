@@ -1,0 +1,360 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+html, body {
+
+}
+
+
+.about2  {
+    height: 1px;
+    width: 1px;
+    font-size: 1px;
+    visibility: hidden;
+}
+.more2 {
+    height: 1px;
+    width: 1px;
+    font-size: 1px;
+    visibility: hidden;
+}
+.emailMe {
+	position: fixed;
+	margin-top: 300px;
+	margin-left: -13px;
+	/* Rotate div */
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+	color: #337ab7;
+	z-index: 999;
+}
+
+.name{
+	position: fixed;
+	margin-top: 100px;
+	margin-left: -59px;
+	/* Rotate div */
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+	color: #bbbbbb;
+	z-index: 999;
+}
+h3.welcome {
+	position: relative;
+	margin-top: 27px;
+	font-weight: 400;
+	font-size: 3.0em;
+}
+p.iam {
+	margin-top: 0px;	
+}
+img.icon {
+	width: 24px;
+    padding: 0px 0;
+    left: 0px;
+}
+
+.clemente {
+	font-size: 1.5em;
+    color: #6e929f;
+    font-weight: 800;
+    padding: 0 66px;
+}
+.home {
+	position: absolute;
+	top: 0px;
+	max-height: 30px;
+}
+.container {
+	margin-top: 10px;
+	border-radius: 25px;
+	float: none !important;
+}
+img.arrow {
+	position: relative;
+	margin: 0 auto;
+	top: 80px;
+    float: none !important;
+}
+img.arrow:hover {
+	position: relative;
+	margin: 0 auto;
+	top: 90px;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    margin-left: -30%;
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+}
+
+	
+.carousel-indicators .active {
+	top: 
+    margin: 0;
+    width: 12px;
+    height: 12px;
+    background-color: #000;
+}
+
+.carousel-indicators li {
+    border: 1px solid #aaaaaa;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 30px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0,0,0,0);
+}
+
+
+ol.carousel-indicators
+.carousel-indicators {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    margin-left: -30%;
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+}
+.carousel-indicators {
+	position: relative;
+	top: 200px;
+}
+
+.section1 {
+	margin-top: 150px;
+}
+.section2, .white-inside {
+	margin-top: 100px;
+	float: none !important;
+}
+.grey-outside, .section1 h4,{
+    margin-top: 0px;
+    float: none !important;
+}
+
+
+.grey-outside{
+    padding: 50px 10px;
+	background-color: #eeeeee;
+}
+
+.white-inside {
+	position: relative;
+	top: -50px;	
+	background-color: #fff;
+	padding: 50px 0 0px 0;
+    border-radius: 0px 20px 0 0;
+	border: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+hr {
+    position: relative;
+    top: 30px;
+    border-bottom: 1px solid #eeeeee;
+    padding: 0;
+    margin: 0;
+}
+.right-side-text {
+	position: relative;
+	 top: 4px;
+    left: 186px;
+	display: block;
+	/* Rotate div */
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+	color: #bbbbbb;
+	z-index: 999;
+}
+.enlarge {
+	top: 0px;
+	left: 0px;
+}
+.openNewTab{
+	position: relative;
+    top: 0px;
+    left: 81px;
+}
+.bottom-buttons {
+	position: relative;
+    top: 37px;
+    background-color: #f7f7f7;
+    display: inline-block;
+    border: 1px solid #eeeeee;
+}
+
+.about, .more {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: transparent;
+    white-space: nowrap;
+    padding: 6px 0;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 0px;
+
+ }
+.about {
+    margin: 0 15%;
+}
+.more {
+    margin: 0 15%;
+}
+ .pink-x {
+    font-size: 2.0em;
+    color: #a96d9d;
+ }
+
+.popover {
+    border: none;
+    box-shadow: 0px 15px 15px #b2b2b2;
+}
+.popover.bottom>.arrow {
+    border-bottom-color: #fff !important; 
+}
+ button {
+ 	color: #337ab7;
+ }
+
+/* Small devices (tablets, 768px and up) */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px){ 
+    .section2, .white-inside {
+    margin-top: 100px;
+    float: left !important;
+}
+
+.carousel-indicators {
+    position: relative;
+    top: 335px;
+}
+.right-side-text {
+    position: relative;
+    left: 87%;
+ }
+.grey-outside, .section1 h4,{
+    margin-top: 0px;
+    float: left !important;
+
+}
+.bottom-buttons {
+    background-color: #eeeeee;
+}
+.grey-outside {
+    top: -23px;
+    border-radius: 25px 0px 0px 25px;
+    }
+.first {
+    top: -30px; 
+}
+.grey-outside3 {
+    top: 0px;
+    padding-top: 60px;   
+    border-radius: 0px 25px 25px 0px;
+    background-color: #eeeeee;
+    }
+p {
+    padding: 20px 0;
+}
+.more {
+    visibility: visible;
+}
+.about {
+    visibility: hidden; 
+}
+.about2 {
+    left: 6px;
+    height: 1px;
+    width: 33.33333333%;
+    font-size: 14px;
+    visibility: visible;  
+}
+img.arrow {
+    float: none !important;
+}
+h2.first, h4.row {
+    margin-left: 20px;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+.bottom-buttons { 
+    visibility: hidden;
+}
+.carousel-indicators {
+    position: relative;
+    top: 435px;
+}
+.more {
+    visibility: hidden;
+}  
+.more2 {
+    width: 33.33333333%;
+    visibility: visible;
+    font-size: 14px;
+}
+.grey-outside2 {
+    border-radius: 0px ;
+    background-color: #eeeeee;
+    border-radius: 0px 25px 25px 0px;
+    }
+img.arrow {
+    float: none !important;
+}
+.grey-outside4 img {
+    border-radius: 25px 0px 0px  25px;
+    background-color: #eeeeee;
+    }   
+.grey-outside3 {
+    border-radius: 0px 0px 0px 0px;
+    background-color: #eeeeee;
+    }
+
+.grey-outside2 img { 
+    margin-top: 50px;
+    padding: 0px 0px 20px 0px;
+}
+.grey-outside2 p {
+    top: -16px;
+}
+.first {
+    top: -23px;
+}
+.first2 { 
+    top: -23px;    
+    left: 10px;
+}
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+.carousel-indicators {
+    position: relative;
+    top: 535px;
+} }
